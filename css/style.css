@@ -1,0 +1,152 @@
+:root {
+  --menu-hover: #cd9b33;
+  --color-general: #666;
+  --color-titulos: #000;
+  --fondo-footer: #22202e;
+  --color-footer: #ccc;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--color-general);
+}
+
+h2.title {
+  font-family: 'Kaushan Script', cursive;
+  color: var(--color-titulos);
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  color: var(--menu-hover);
+  font-weight: bold;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.delicieux img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.intro blockquote {
+  font-style: italic;
+  font-size: 16px;
+  color: var(--color-general);
+}
+
+.main-footer {
+  background-color: var(--fondo-footer);
+  color: var(--color-footer);
+  padding: 40px 0;
+}
+
+.main-footer h6 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+header{
+	background-color: #fff;
+	padding: 5px 0;
+	box-shadow: 0px 0px 5px 10px #f2f2f2;
+}
+
+
+footer #copyright {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.hero .owl-carousel .item img {
+  max-height: 3000px; 
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+}
+
+.order-now-btn {
+  border: 2px solid #cd9b33;
+  background: transparent;
+  color: #cd9b33;
+  font-family: 'Lora', serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 40px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
+}
+
+.order-now-btn-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-quote-block {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 2em 1em;
+}
+.intro-quote {
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  font-weight: bold; 
+  color: #333;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  border: none;
+  background: transparent;
+  display: block;
+}
+.intro-author {
+  color: #888;
+  font-size: 1em;
+  margin-bottom: 0.3em;
+}
+.sunshine-signature-text {
+  font-family: 'Kaushan Script', cursive;
+  color: #cd9b33;
+  font-size: 2em;
+  display: block;
+  margin-top: 0.2em;
+}
+.sunshine-signature {
+  display: block;
+  margin: 0.2em auto 0 auto;
+  max-width: 130px;
+  width: 100%;
+}
+
+.footer-bottom-black {
+  background: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 18px 0 20px 0;
+  font-size: 0.98em;
+}
+.footer-bottom-black .bready-bold {
+  font-weight: bold;
+  color: #fff;
+}
+.footer-bottom-black .footer-link {
+  color: #cd9b33;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-bottom-black .footer-link:hover {
+  color: #fff8dc;
+  text-decoration: underline;
+}
